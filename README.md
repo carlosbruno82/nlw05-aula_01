@@ -22,7 +22,7 @@ $ mix ecto.create
 $ mix phx.server
 ```
 
-### Acrescentar o analisador sintático de código (o famoso linter) junto com os defaults (dentro do "defp deps do...":
+### Acrescentar o analisador sintático de código (o famoso linter) junto com os defaults (dentro do "defp deps do..."):
 Fonte: https://github.com/rrrene/credo
 
 Dentro do arquivo "mix.exs"
@@ -79,10 +79,14 @@ $ h String.upcase
 $ recompile
 ```
 
+## Observações:
+
 ### Utilizando alias em módulo.
 "alias Inmana.Welcomer"
 Após alias, utiliza somente "Welcomer" (depois as funções "Welcomer.welcome()").
 
+### defp (função)
+É uma função privada. Somente o próprio módulo tem acesso.
 
 ### Dentro da pasta "lib":
 
