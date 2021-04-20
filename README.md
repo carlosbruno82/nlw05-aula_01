@@ -71,12 +71,12 @@ $ iex -S mix
 
 ### Help (h) sobre a função do iex. no caso utilizando "String"
 ```
-$ h String.upcase
+iex> h String.upcase
 ```
 
 ### Recompilar o código devido à modificação.
 ```
-$ recompile
+iex> recompile
 ```
 
 ## Observações:
